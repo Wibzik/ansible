@@ -28,3 +28,4 @@ jobs:
         run: |
           ansible --version
           pip3 --version
+          ansible-lint --version
