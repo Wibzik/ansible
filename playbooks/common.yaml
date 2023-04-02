@@ -1,0 +1,9 @@
+---
+- name: Common roles
+  hosts: rusvpn
+  gather_facts: true
+  become: true
+  roles:
+    - common
+    - ntpd
+    - selinux

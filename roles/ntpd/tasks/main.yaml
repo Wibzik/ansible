@@ -1,0 +1,11 @@
+---
+- name: Install ntp
+  ansible.builtin.yum:
+    name: ntp
+    state: present
+
+- name: Start and enable ntpd.service
+  ansible.builtin.systemd:
+    name: ntpd
+    state: started
+    enabled: true

@@ -1,0 +1,4 @@
+---
+# enforcing / permissive / disabled
+selinux_status: disabled
+
